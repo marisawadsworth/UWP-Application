@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="UWPApplication2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPApplication2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Opacity="0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/sea.gif"/>
+        </Grid.Background>
+        <Button Content="Go to My New Page" Margin="76,564,0,0" VerticalAlignment="Top" Height="106" Width="258" IsEnabled="True" Click="Button_Click"/>
+
+    </Grid>
+</Page>
